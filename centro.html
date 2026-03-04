@@ -1,24 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>creActiv centro</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Galada&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/ui/creActiveFavicon.png" type="image/x-icon">
 </head>
-<body>
-    <main>
-        <section class="product-info">
-            <picture>
-            <img src="" alt=""> 
-            <source media="(min-width: 800px)" srcset="imagen-grande.jpg">
-            <source media="(min-width: 400px)" srcset="imagen-mediana.jpg">
-            </picture>
-    
-        </section>
-        <aside class="contact-info">
-            <img src="www.thispersondontexit" class="profile-picture">
 
-        </aside>
+<body>
+    <header class="nav-header">
+        <a href="index.html" target="_blank" rel=""><img class="logo" src="assets/img/ui/creActiveLogo.jpg"></a>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="taller.html" target="_self">Talleres</a></li>
+                <li><a href="#" target="_self">Profesores</a></li>
+                <li><a href="centro.html" target="_self">Centros</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="#">Registro</a>
+            <a href="#">Inicio sesión</a>
+        </div>
+    </header>
+    <main>
+        <section class="search-container">
+            <form class="search-bar" method="get">
+                <input type="text" name="place" id="place" placeholder="Busca por ciudad ">
+                <input type="month" name="month" id="month">
+                <select name="activity" id="activity">
+                    <option value="actividad">Actividad</option>
+                    <option value="pintura">Pintura</option>
+                    <option value="textil">Textil</option>
+                    <option value="ceramica">Cerámica</option>
+                    <option value="crochet">Crochet</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <section class="claim">
+            <h2>Talleres creativos de un día</h2>
+            <p>Conectamos talento, espacios y personas en experiencias creativas.</p>
+        </section>
     </main>
+    <footer>
+        <p>2026 creActiv &copy;</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

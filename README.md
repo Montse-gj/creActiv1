@@ -12,7 +12,7 @@ Con creActiv se busca solucionar la dificultad del usuario final de localizar un
 ## Estructura del Prototipo
 Explicación de las vistas creadas y cómo se navega entre ellas.
 * **index.html:** En la página principal el usuario final puede ver el listado de cursos, enlaces a login y registro y buscador de cursos
-* **nombre_vista_2.html:** Descripción de esta segunda pantalla.
+* **nombre_taller.html:** Esta página muestra la descripción del taller con precio, fechas disponibles, estado del curso y boton que lleva a la compra.
 * **nombre_vista_3.html:** Descripción de esta tercera pantalla.
 ## Tecnologías Utilizadas
 * HTML5

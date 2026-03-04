@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>creActiv</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Galada&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/ui/creActiveFavicon.png" type="image/x-icon">
 </head>
-<body>
-    <header class="header">
-        <h1>creActiv</h1>
 
+<body>
+    <header class="nav-header">
+        <a href="index.html" target="_blank" rel=""><img class="logo" src="assets/img/ui/creActiveLogo.jpg"></a>
         <nav>
             <ul class="nav-list">
-                <li><a href="taller.html" target="_blank">Talleres</a></li>
-                <li><a href="#" target="_blank">Profesores</a></li>
-                <li><a href="centro.html" target="_blank">Centros</a></li>
-            </ul> 
+                <li><a href="taller.html" target="_self">Talleres</a></li>
+                <li><a href="#" target="_self">Profesores</a></li>
+                <li><a href="centro.html" target="_self">Centros</a></li>
+            </ul>
         </nav>
+        <div class="login">
+            <a href="#">Registro</a>
+            <a href="#">Inicio sesión</a>
+        </div>
+    </header>
+    <main>
         <section class="search-container">
             <form class="search-bar" method="get">
                 <input type="text" name="place" id="place" placeholder="Busca por ciudad ">
@@ -36,30 +45,154 @@
                 <button type="submit">Buscar</button>
             </form>
         </section>
-    </header>
-    <main>
         <section class="claim">
             <h2>Talleres creativos de un día</h2>
-            <p>Conecta talento, espacios y personas en experiencias creativas que empiezan y terminan el mismo día.</p>
+            <p>Conectamos talento, espacios y personas en experiencias creativas.</p>
         </section>
-        <section class="product-container"> 
-            <article class="product-card">
-                <div class="product-img">
-                    <img src="assets/img/taller/textilMarmolado.jpg" alt="">
-                </div>
-                    <img src="assets/img/profesor/profe1.png" alt="" class="social-img"> 
-                <h2>
-                    Taller marmolado textil
-                </h2>
-                <h3>Centro CCCQS</h3>
-                <div class="product-desc">Aprenderemos la técnica del marmoleado paso a paso: como preparar el agua, trabajo con las pinturas y técnicas básicas para crear diferentes efectos en el agua. Ésta es una técnica sumamente relajante, que te permitirá crear diseños únicos.</div>
-
-            </article>
-        </section>
+        <h3 class="product-title">Talleres confirmados</h2>
+            <section class="product-container">
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/taller/textilMarmolado.jpg" alt="">
+                    </div>
+                    <div class="product-short-desc">
+                        <h4>Taller marmolado textil</h4>
+                        <p><b>Profesor:</b> Lidia Marcos</p>
+                        <p><i>Centro: CCCQS</i></p>
+                        <div class="product-price-data">
+                            <div>50€ </div>
+                            <div>Abril</div>
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </article>
+            </section>
 
     </main>
     <footer>
+        <p>2026 creActiv &copy;</p>
     </footer>
-    
+    <script src="js/script.js"></script>
 </body>
+
 </html>
