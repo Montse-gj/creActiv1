@@ -16,23 +16,23 @@
 </head>
 
 <body>
-    <header class="nav-header">
-        <a href="index.html" target="_blank" rel=""><img class="logo" src="assets/img/ui/creActiveLogo.jpg"></a>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="taller.html" target="_self">Talleres</a></li>
-                <li><a href="#" target="_self">Profesores</a></li>
-                <li><a href="centro.html" target="_self">Centros</a></li>
-            </ul>
-        </nav>
-        <div class="login">
-            <a href="#">Registro</a>
-            <a href="#">Inicio sesión</a>
+    <header>
+        <div class="nav-header">
+            <a href="index.html" target="_self" rel=""><img class="logo" src="assets/img/ui/creActiveLogo.jpg"></a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="taller.html" target="_self">Talleres</a></li>
+                    <li><a href="#" target="_self">Profesores</a></li>
+                    <li><a href="#" target="_self">Centros</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="registro.html">Registro</a>
+                <a href="#">Inicio sesión</a>
+            </div>
         </div>
-    </header>
-    <main>
         <section class="search-container">
-            <form class="search-bar" method="get" action="taller.html">
+            <form class="search-bar" method="get" action="index.html">
                 <input type="text" name="place" id="place" placeholder="Busca por ciudad ">
                 <input type="month" name="month" id="month">
                 <select name="activity" id="activity">
@@ -45,6 +45,8 @@
                 <button type="submit">Buscar</button>
             </form>
         </section>
+    </header>
+    <main>
         <section class="claim">
             <h2>Talleres creativos de un día</h2>
             <p>Conectamos talento, espacios y personas en experiencias creativas.</p>

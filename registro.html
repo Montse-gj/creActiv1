@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creActiv taller</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Galada&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/ui/creActiveFavicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="nav-header">
+            <a href="index.html" target="_self" rel=""><img class="logo" src="assets/img/ui/creActiveLogo.jpg"></a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="taller.html" target="_self">Talleres</a></li>
+                    <li><a href="#" target="_self">Profesores</a></li>
+                    <li><a href="centro.html" target="_self">Centros</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="#">Registro</a>
+                <a href="#">Inicio sesión</a>
+            </div>
+        </div>
+        <section class="search-container">
+            <form class="search-bar" method="get" action="index.html">
+                <input type="text" name="place" id="place" placeholder="Busca por ciudad ">
+                <input type="month" name="month" id="month">
+                <select name="activity" id="activity">
+                    <option value="actividad">Actividad</option>
+                    <option value="pintura">Pintura</option>
+                    <option value="textil">Textil</option>
+                    <option value="ceramica">Cerámica</option>
+                    <option value="crochet">Crochet</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1>creActiv</h1>
+            <p>creActiv surge de la necesidad de compartir tiempo realizando actividades creativas, en talleres de
+                modo
+                puntual, para disfutar del aprendizaje de ténicas artisticas sin necesidad de asistir a cursos.</p>
+            <h2>Que es creActiv</h2>
+            <p>Plataforma que conecta:</p>
+            <ol>
+                <li>Centros de actividades creativas: estudios de pintura, talleres de moda, centros de cerámica,
+                    etc.
+                </li>
+                <li>Profesores que no disponen de un espacio y tienen buenas ideas para desarrollar talleres
+                    puntuales.
+                </li>
+                <li>Usuarios finales que buscan experiencias creativas sin necesidad de asistir a cursos.</li>
+            </ol>
+            <p>La sinergia entre centro y profesor generarán la creacion de talleres creativos al alcance de los
+                usuarios.</p>
+        </section>
+        <section>
+            <h2>Como funciona</h2>
+            <div class="card">
+                <div class="info-card">
+                    <b>Para participantes</b>
+                    <ol type="a">
+                        <li>Busca el taller por ciudad, fecha y actividad</li>
+                        <li>Conoce los detalles del taller / centro / profesor</li>
+                        <li>Reserva tu plaza en los talleres confirmados</li>
+
+                    </ol>
+                </div>
+                <div class="info-card">
+                    <b>Para centros y profesores</b>
+                    <ol type="a">
+                        <li>Únete a la plataforma con Profesor o centro</li>
+                        <li>Crea tu centro y/o actividades </li>
+                        <li>Contacta con el profesor o centro para acordar la realización del taller</li>
+                        <li>Publicaremos el taller confirmado para que lleguen a los participantes</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="claim">
+            <h3>¿Quieres formar parte de esta esperiencia? ¿Eres profesor o gestionas un centro creativo? Únete y activa
+                tus talleres.></h3>
+        </section>
+        <section>
+            <form method="get">
+                <h3>Formulario de registro Profesor / Centro</h3>
+                <div class="form-display-radio">
+                    <fieldset>
+                        <legend>¿Qué eres?</legend>
+                        <input type="radio" id="teacher" name="user" value="Profesor">
+                        <label for="teacher">Profesor</label>
+                        <input type="radio" id="workshop" name="user" value="Centro">
+                        <label for="workshop">Centro</label>
+                        <input type="radio" id="teacher-workshop" name="user" value="Centor y profesor">
+                        <label for="teacher-workshop">Profesor y Centro</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿Necesitas espacio?</legend>
+                        <input type="radio" id="yes" name="space" value="Si">
+                        <label for="yes">Si</label>
+                        <input type="radio" id="no" name="space" value="No">
+                        <label for="no">No</label>
+                    </fieldset>
+                </div>
+                <p><b>Datos básicos</b></p>
+                <div class="form-basic-tag">
+                    <div class="form-basic-dat">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-basic-dat">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-basic-dat">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-basic-dat">
+                        <label for="city">Ciudad</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                </div>
+                <p><b>Perfil profesional</b></p>
+                <div>
+                    <label for="art">Selecciona tu actividad principal</label>
+                    <select name="art" id="art">
+                        <option value="pintura">pintura</option>
+                        <option value="ceramica">ceramica</option>
+                        <option value="textil">textil</option>
+                        <option value="crochet">crochet</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="desc-art">Breve explicación</label></p>
+                    <textarea id="desc-art" name="desc-art" rows="4"
+                        cols="40">Explica brevemente tu experiencia como profesor artistico</textarea>
+                </div>
+                <p><b>Disponibilidad</b></p>
+                <div>
+                    <legend>Selecciona las opciones que más se ajustan a tu disponibilidad</legend>
+                    <p><i>Días:</i></p>
+                    <label for="weekdays">
+                        <input type="checkbox" id="weekdays" name="weekdays" value="Entre semana" />
+                        Entre semana</label>
+                    <label for="weekend">
+                        <input type="checkbox" id="weekend" name="weekend" value="Fin de semana" />
+                        Fin de semana</label>
+                    <p><i>Franja horaria:</i></p>
+                    <label for="morning">
+                        <input type="checkbox" id="morning" name="morning" value="Mañanas" />
+                        Mañanas</label>
+                    <label for="afternoon"><input type="checkbox" id="afternoon" name="afternoon" value="Tardes" />
+                        Tardes</label>
+                    <label for="allDay"><input type="checkbox" id="allDay" name="allDay" value="Todo el día" />
+                        Todo el día </label>
+                </div>
+                <button class="button-form">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>2026 creActiv &copy;</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
